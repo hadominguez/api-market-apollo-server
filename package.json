@@ -1,0 +1,25 @@
+{
+  "name": "api-market-apollo-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "compile": "tsc",
+    "start": "npm run compile && node ./dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.5.0",
+    "dotenv": "^16.0.3",
+    "graphql": "^16.6.0",
+    "pg": "^8.10.0",
+    "sequelize": "^6.29.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.3",
+    "typescript": "^5.0.2"
+  }
+}
